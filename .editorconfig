@@ -1,0 +1,6 @@
+[*]
+indent_size = 4
+insert_final_newline = true
+
+[*.{json,fsproj}]
+indent_size = 2

@@ -1,0 +1,5 @@
+version 5.247.4
+source https://api.nuget.org/v3/index.json
+storage: none
+
+nuget FSharp.Core
