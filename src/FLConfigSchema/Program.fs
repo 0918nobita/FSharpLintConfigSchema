@@ -1,4 +1,4 @@
 ﻿[<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    printfn "FSharpLint Config Schema"
     0

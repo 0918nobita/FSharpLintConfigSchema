@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Version>0.1.0</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <Description>Console application to generate JSON Schema for the FSharpLint configuration files.</Description>
+    <PackageTags>F#;fsharp;lint;FSharpLint;fslint;cli</PackageTags>
+    <PackAsTool>true</PackAsTool>
+    <AssemblyName>fsharplint-config</AssemblyName>
+    <ToolCommandName>fsharplint-config</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
